@@ -84,3 +84,13 @@ function restart() {
     let gameOverLayer = document.getElementById("gameOver");
     gameOverLayer.style.display = 'none';
 }
+
+function popup() {
+    let modal = document.getElementById("modal");
+    modal.style.display = "flex";
+}
+
+function closepopup() {
+    let modal = document.getElementById("modal");
+    modal.style.display = "none";
+}

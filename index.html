@@ -11,6 +11,11 @@
 </head>
 
 <body>
+    <button class="btnAuthor" onclick="popup()">Autor</button>
+    <div id="modal">
+        <span id="close" onclick="closepopup()">&times;</span>
+        <h2 id="author">Developed by Felipe Lippi <br>02-06-2021</h2>
+    </div>
     <h1 class="title">Quais tecnologias você domina?</h1>
     <div id="gameBoard">
     </div>
@@ -21,8 +26,6 @@
         </div>
         <button id="restart" onclick="restart()">Jogue novamente</button>
     </div>
-    <h2 id="author">Developed by Felipe Lippi <br>02-06-2021</h2>
-
     <script src="./assets/scripts/game.js"></script>
     <script src="./assets/scripts/script.js"></script>
 </body>
